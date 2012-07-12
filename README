@@ -1,0 +1,10 @@
+A simple Scalaz style identities for Hadoop Writables.
+
+Usage:
+
+import Writablizer._
+
+2L.longw       // hadoop.io.LongWritable
+3.intw         // hadoop.io.IntWritable
+"hello".textw  // hadoop.io.Text
+
